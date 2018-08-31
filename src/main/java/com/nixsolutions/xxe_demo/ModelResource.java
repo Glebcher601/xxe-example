@@ -86,6 +86,8 @@ public class ModelResource
     XMLInputFactory xif = XMLInputFactory.newFactory();
     xif.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, true);
     xif.setProperty(XMLInputFactory.SUPPORT_DTD, true);
+    xif.setProperty(XMLInputFactory.IS_REPLACING_ENTITY_REFERENCES, true);
+
 
     XMLEventReader xmlEventReader = xif.createXMLEventReader(new StringReader(xml));
 

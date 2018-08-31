@@ -32,9 +32,10 @@ loop do
 	puts "FTP. New client connected"
 	ftp_client.puts("220 xxe-ftp-server")
 	loop {
+
 		req = ftp_client.gets()
 		break if req.nil?
-		puts "< "+req
+		puts "=======[ " + req.inspect + " ]========"
 		log.write "get req: #{req.inspect}\n"
 		
 		if req.include? "LIST"
