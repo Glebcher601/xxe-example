@@ -26,6 +26,14 @@ public class EvilController
     return input;
   }
 
+  @PostMapping
+  public
+  @ResponseBody String collectPost(@RequestBody String input) throws IOException
+  {
+    LOG.debug("RECEIVED INPUT: " + input);
+    return input;
+  }
+
   @GetMapping(path = "/dtd/evil.dtd")
   public @ResponseBody String getDtd() throws IOException
   {
