@@ -1,4 +1,4 @@
-package com.nixsolutions.xxe_demo;
+package com.nixsolutions.xxe_demo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,11 +12,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Getter
 @Setter
 @XmlRootElement
-public class Model
+public class User
 {
   private int id;
 
-  private String data;
+  private String login;
 
-  private String type;
+  private String password;
 }
