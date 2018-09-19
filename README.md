@@ -4,7 +4,7 @@ Start web app:
 
     $ mvn jetty:run
 
-Retrieve all books:
+Retrieve all models:
 
     $ curl http://localhost:8080/rest/model
 
@@ -24,7 +24,7 @@ Directory listing
 
     $ curl -X POST -v -H "Content-Type:application/xml" --upload-file xml/xxe/model-xxe-dirlist.xml http://localhost:8080/rest/model/reflect 
 
-Outband
+Outband(NOT WORKING ON LINUX)
 
     $ curl -X POST -v -H "Content-Type:application/xml" --upload-file xml/oob/model-outband-xxe.xml http://localhost:8080/rest/model/reflect
 

